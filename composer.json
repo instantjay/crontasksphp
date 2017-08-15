@@ -1,0 +1,19 @@
+{
+    "name": "instantjay/crontasksphp",
+    "description": "Library for organizing cron jobs programmatically.",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {"instantjay\\crontasksphp\\": "src"}
+    },
+    "require": {
+        "respect/validation": "1.*",
+        "particle/filter": "1.*",
+        "monolog/monolog": "1.*"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "6.*"
+    },
+    "keywords": [
+        "cron", "cronjobs", "tasks"
+    ]
+}
